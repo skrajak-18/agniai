@@ -58,7 +58,7 @@ const AgniHouseAI = () => {
     ];
     for (const phase of phases) {
       setStatusText(phase);
-      await new Promise(r => setTimeout(r, 800));
+      await new Promise(r => setTimeout(r, 200));
     }
   };
 
